@@ -26,11 +26,11 @@ class CardChats extends StatelessWidget {
             // Kodingan dimulai
             ListTile(
               leading: CircleAvatar(
-                backgroundImage: NetworkImage(_profilImage),
+                backgroundImage: NetworkImage('${this._profilImage}'),
                 radius: 30.0,
               ),
               title: Text(
-                _name,
+                '${this._name}',
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
               subtitle: Row(
@@ -42,10 +42,10 @@ class CardChats extends StatelessWidget {
                   SizedBox(
                     width: 3.0,
                   ),
-                  Text(_Dsc),
+                  Text('${this._Dsc}'),
                 ],
               ),
-              trailing: Text(_time),
+              trailing: Text('${this._time}'),
             ),
           ],
         ),
