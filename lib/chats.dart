@@ -18,7 +18,7 @@ class Chats extends StatelessWidget {
             SizedBox(
               height: 10,
             ),
-            CardChats('https://i0.wp.com/www.cirebonkota.go.id/wp-content/uploads/2018/05/jokowi.jpg', 'Ridho', 'Makan yu', '19.00'),
+            CardChats('Ridho', '19.00', 'Makan yu', 'https://i0.wp.com/www.cirebonkota.go.id/wp-content/uploads/2018/05/jokowi.jpg'),
           ],
         ),
       ),
