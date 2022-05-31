@@ -50,14 +50,6 @@ class CardChats extends StatelessWidget {
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        backgroundColor: Colors.green,
-        onPressed: () {},
-        child: Icon(
-          Icons.chat_bubble,
-          color: Colors.white,
-        ),
-      ),
     );
   }
 }
