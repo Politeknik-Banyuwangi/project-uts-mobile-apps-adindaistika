@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'Widget/CardCalls.dart';
 
 class Calls extends StatelessWidget {
   const Calls({Key? key}) : super(key: key);
@@ -18,14 +19,21 @@ class Calls extends StatelessWidget {
             SizedBox(
               height: 10,
             ),
-
             // Masukkan Coding disini jangan rubah lainnya
-            //
-            //
-            //
-            //
-            //
-            //
+            CardsCalls('Ridho', 'hari ini 19.00', 'https://i.postimg.cc/J7v7zHrW/IMG-8252.jpg', 'vidio call', 'accept'),
+            CardsCalls('Ridho', 'hari ini 19.00', 'https://i.postimg.cc/J7v7zHrW/IMG-8252.jpg', 'vidio call', 'accept'),
+            CardsCalls('Ridho', 'hari ini 19.00', 'https://i.postimg.cc/J7v7zHrW/IMG-8252.jpg', 'vidio call', 'accept'),
+            CardsCalls('Ridho', 'hari ini 19.00', 'https://i.postimg.cc/J7v7zHrW/IMG-8252.jpg', 'vidio call', 'accept'),
+            CardsCalls('Ridho', 'hari ini 19.00', 'https://i.postimg.cc/J7v7zHrW/IMG-8252.jpg', 'vidio call', 'accept'),
+            CardsCalls('Ridho', 'hari ini 19.00', 'https://i.postimg.cc/J7v7zHrW/IMG-8252.jpg', 'vidio call', 'accept'),
+            CardsCalls('Ridho', 'hari ini 19.00', 'https://i.postimg.cc/J7v7zHrW/IMG-8252.jpg', 'vidio call', 'accept'),
+            CardsCalls('Ridho', 'hari ini 19.00', 'https://i.postimg.cc/J7v7zHrW/IMG-8252.jpg', 'vidio call', 'accept'),
+            CardsCalls('Ridho', 'hari ini 19.00', 'https://i.postimg.cc/J7v7zHrW/IMG-8252.jpg', 'vidio call', 'accept'),
+            CardsCalls('Ridho', 'hari ini 19.00', 'https://i.postimg.cc/J7v7zHrW/IMG-8252.jpg', 'vidio call', 'accept'),
+            CardsCalls('Ridho', 'hari ini 19.00', 'https://i.postimg.cc/J7v7zHrW/IMG-8252.jpg', 'vidio call', 'accept'),
+            CardsCalls('Ridho', 'hari ini 19.00', 'https://i.postimg.cc/J7v7zHrW/IMG-8252.jpg', 'vidio call', 'accept'),
+            CardsCalls('Ridho', 'hari ini 19.00', 'https://i.postimg.cc/J7v7zHrW/IMG-8252.jpg', 'vidio call', 'accept'),
+            CardsCalls('Ridho', 'hari ini 19.00', 'https://i.postimg.cc/J7v7zHrW/IMG-8252.jpg', 'vidio call', 'accept'),
           ],
         ),
       ),

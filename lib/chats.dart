@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'Widget/CardChats.dart';
 
 class Chats extends StatelessWidget {
   const Chats({Key? key}) : super(key: key);
@@ -17,6 +18,17 @@ class Chats extends StatelessWidget {
             SizedBox(
               height: 10,
             ),
+            CardChats('Ridho', '19.00', 'Semangat buat hari ini', 'https://i.postimg.cc/J7v7zHrW/IMG-8252.jpg'),
+            CardChats('Ridho', '19.00', 'Semangat buat hari ini', 'https://i.postimg.cc/J7v7zHrW/IMG-8252.jpg'),
+            CardChats('Ridho', '19.00', 'Semangat buat hari ini', 'https://i.postimg.cc/J7v7zHrW/IMG-8252.jpg'),
+            CardChats('Ridho', '19.00', 'Semangat buat hari ini', 'https://i.postimg.cc/J7v7zHrW/IMG-8252.jpg'),
+            CardChats('Ridho', '19.00', 'Semangat buat hari ini', 'https://i.postimg.cc/J7v7zHrW/IMG-8252.jpg'),
+            CardChats('Ridho', '19.00', 'Semangat buat hari ini', 'https://i.postimg.cc/J7v7zHrW/IMG-8252.jpg'),
+            CardChats('Ridho', '19.00', 'Semangat buat hari ini', 'https://i.postimg.cc/J7v7zHrW/IMG-8252.jpg'),
+            CardChats('Ridho', '19.00', 'Semangat buat hari ini', 'https://i.postimg.cc/J7v7zHrW/IMG-8252.jpg'),
+            CardChats('Ridho', '19.00', 'Semangat buat hari ini', 'https://i.postimg.cc/J7v7zHrW/IMG-8252.jpg'),
+            CardChats('Ridho', '19.00', 'Semangat buat hari ini', 'https://i.postimg.cc/J7v7zHrW/IMG-8252.jpg'),
+            CardChats('Ridho', '19.00', 'Semangat buat hari ini', 'https://i.postimg.cc/J7v7zHrW/IMG-8252.jpg'),
           ],
         ),
       ),
