@@ -11,37 +11,28 @@ class CardChats extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListView(
-      children: [
-        SizedBox(
-          height: 10,
-        ),
-
-        // Kodingan dimulai
-        ListTile(
-          leading: CircleAvatar(
-            backgroundImage: NetworkImage('${this._profilImage}'),
-            radius: 30.0,
+    return ListTile(
+      leading: CircleAvatar(
+        backgroundImage: NetworkImage('${this._profilImage}'),
+        radius: 30.0,
+      ),
+      title: Text(
+        '${this._name}',
+        style: TextStyle(fontWeight: FontWeight.bold),
+      ),
+      subtitle: Row(
+        children: [
+          Icon(
+            Icons.done_all_rounded,
+            color: Colors.blue,
           ),
-          title: Text(
-            '${this._name}',
-            style: TextStyle(fontWeight: FontWeight.bold),
+          SizedBox(
+            width: 3.0,
           ),
-          subtitle: Row(
-            children: [
-              Icon(
-                Icons.done_all_rounded,
-                color: Colors.blue,
-              ),
-              SizedBox(
-                width: 3.0,
-              ),
-              Text('${this._dsc}'),
-            ],
-          ),
-          trailing: Text('${this._time}'),
-        ),
-      ],
+          Text('${this._dsc}'),
+        ],
+      ),
+      trailing: Text('${this._time}'),
     );
   }
 }
