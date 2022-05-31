@@ -1,8 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class Chats extends StatelessWidget {
-  const Chats({Key? key}) : super(key: key);
+class CardChats extends StatelessWidget {
+  final String _name;
+  final String _time;
+  final String _Dsc;
+  final String _profilImage;
+
+  const CardChats(this._name, this._time, this._Dsc, this._profilImage);
 
   @override
   Widget build(BuildContext context) {
@@ -21,11 +26,11 @@ class Chats extends StatelessWidget {
             // Kodingan dimulai
             ListTile(
               leading: CircleAvatar(
-                backgroundImage: NetworkImage("https://i0.wp.com/www.cirebonkota.go.id/wp-content/uploads/2018/05/jokowi.jpg"),
+                backgroundImage: NetworkImage(_profilImage),
                 radius: 30.0,
               ),
               title: Text(
-                'Anda',
+                _name,
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
               subtitle: Row(
@@ -37,10 +42,10 @@ class Chats extends StatelessWidget {
                   SizedBox(
                     width: 3.0,
                   ),
-                  Text('Tugasmu urung mari dap'),
+                  Text(_Dsc),
                 ],
               ),
-              trailing: Text('18.00'),
+              trailing: Text(_time),
             ),
           ],
         ),
